@@ -114,12 +114,11 @@ dùng trong framework.**
 ## Build
 Sinh viên thực hiện build bằng lệnh `make` từ command line trên Linux
 và chạy file `a01`. Cú pháp trên linux như sau:
-> `./a01 event.txt input1.txt`
+> `./dsa172a1 request.txt sampleData.dat`
 
-trong đó `event.txt` là file chứa danh sách các sự kiện, cách nhau bởi 
-  khoảng trắng hoặc ký tự xuống dòng.
-  `input1.txt` là file dữ liệu xe bus, sinh viên có thể thử nghiệm với 
-  các file dữ liệu khác nhau. 
+trong đó `request.txt` là file chứa danh sách các sự kiện, cách nhau bởi 
+khoảng trắng hoặc ký tự xuống dòng.
+`sampleData.dat` là file dữ liệu. 
 
 Đối với các bạn dùng VisualStudio trên Windows, các bạn có thể tạo một 
 project và thêm các file mã nguồn vào. Nếu không bạn có thể sử dụng hệ 
