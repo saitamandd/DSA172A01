@@ -1,6 +1,6 @@
-#Assignment 01
+# Assignment 01
 
-##Mô tả
+## Mô tả
 Với sự phát triển không ngừng của nghành khoa học dữ liệu, chúng ta thấy 
 sự xuất hiện ngày càng nhiều của các thiết bị thông minh và các hệ thống 
 IoT. Với một lượng lớn các thiết bị xuất hiện ngày càng nhiều thì nhu cầu 
@@ -9,9 +9,9 @@ xử lý và thao tác trên dữ liệu ngày càng lớn.
 Trong bài tập lớn này sinh viên được yêu cầu thực hiện các thao tác 
 trên một bộ dữ liệu thực được thu thập từ các thiết bị gởi về cho máy chủ. 
 Sinh viên vận dụng các cấu trúc dữ liệu phù hợp để thực hiện, giới hạn 
-đến danh sách liên kết
+đến danh sách liên kết.
 
-###Dữ liệu nhập
+### Dữ liệu nhập
 
 Dữ liệu nhập của chương trình được chứa trong file input như sau:
 
@@ -20,9 +20,9 @@ Dữ liệu nhập của chương trình được chứa trong file input như s
 | 12 bytes | VRecord data |
 |  4 bytes | number of records |
 | Content |
-|#1| VRecord |
-|#2| VRecord |
-|#3| VRecord |
+|  1| VRecord |
+|  2| VRecord |
+|  3| VRecord |
 |...| ... |
 
 Thông tin chi tiết về record được đặc tả trong cấu trúc VRecord.
@@ -31,7 +31,7 @@ và timestamp cứa thời gian dữ liệu được gởi đến.
 Hàm `distanceVR` được cho sẵn để tính khoảng cách giữa 2 thiết bị, giá 
 trị trả về là khoảng cách tính theo km.
 
-###Dữ liệu xuất
+### Dữ liệu xuất
 
 Dữ liệu sinh viên xuất ra cần tuân thủ các quy tắc sau:
  + Số nguyên: không cần định dạng
@@ -41,7 +41,7 @@ Dữ liệu sinh viên xuất ra cần tuân thủ các quy tắc sau:
  + Nếu request là dạng command, sinh viên xuất 
  ra `<request>`: `Succeed`/`Failed`.
 
-##Các yêu cầu
+## Các yêu cầu
 
 Các yêu cầu có thể được xử lý trên database.
 
@@ -78,7 +78,7 @@ Các yêu cầu có thể được xử lý trên database.
 trong dữ liệu đầu vào.**
 
 
-##Hiện thực
+## Hiện thực
 
 **Sinh viên được cung cấp các file sau:**
  - `main.cpp`: mã nguồn chính của chương trình
