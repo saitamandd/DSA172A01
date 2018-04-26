@@ -1,4 +1,5 @@
 #Assignment 01
+
 ##Mô tả
 Với sự phát triển không ngừng của nghành khoa học dữ liệu, chúng ta thấy 
 sự xuất hiện ngày càng nhiều của các thiết bị thông minh và các hệ thống 
@@ -11,6 +12,7 @@ Sinh viên vận dụng các cấu trúc dữ liệu phù hợp để thực hi�
 đến danh sách liên kết
 
 ###Dữ liệu nhập
+
 Dữ liệu nhập của chương trình được chứa trong file input như sau:
 
 | Header | |
@@ -30,6 +32,7 @@ Hàm `distanceVR` được cho sẵn để tính khoảng cách giữa 2 thiết
 trị trả về là khoảng cách tính theo km.
 
 ###Dữ liệu xuất
+
 Dữ liệu sinh viên xuất ra cần tuân thủ các quy tắc sau:
  + Số nguyên: không cần định dạng
  + Số thực: độ chính xác *12* chữ số, đã được cài trong `main.cpp`.
@@ -38,7 +41,8 @@ Dữ liệu sinh viên xuất ra cần tuân thủ các quy tắc sau:
  + Nếu request là dạng command, sinh viên xuất 
  ra `<request>`: `Succeed`/`Failed`.
 
-##Các yêu cầu truy xuất
+##Các yêu cầu
+
 Các yêu cầu có thể được xử lý trên database.
 
 | Mã         | Mô tả |
@@ -74,8 +78,8 @@ Các yêu cầu có thể được xử lý trên database.
 trong dữ liệu đầu vào.**
 
 
-
 ##Hiện thực
+
 **Sinh viên được cung cấp các file sau:**
  - `main.cpp`: mã nguồn chính của chương trình
  - `listLib.h`: file chứa định nghĩa thư viện danh sách liên kết
@@ -105,6 +109,7 @@ Sinh viên được phép tuỳ biến, chỉnh sửa các file mã nguồn tr�
 
 **Sinh viên không được sử dụng các thư viện nào khác ngoài các thư viện đã được 
 dùng trong framework.**
+
 ## Build
 Sinh viên thực hiện build bằng lệnh `make` từ command line trên Linux
 và chạy file `a01`. Cú pháp trên linux như sau:
