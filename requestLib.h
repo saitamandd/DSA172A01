@@ -1,6 +1,6 @@
 /*
  * =========================================================================================
- * Name        : eventLib.h
+ * Name        : requestLib.h
  * Author      : Duc Dung Nguyen
  * Email       : nddung@hcmut.edu.vn
  * Copyright   : Faculty of Computer Science and Engineering - Bach Khoa University
@@ -42,6 +42,13 @@ struct VRequest {
     }
     VRequest(VRequest& a) {
         memcpy(code, a.code, REQUEST_CODE_SIZE);
+    }
+    VRequest(VRequest&& a) {
+        memcpy(code, a.code, REQUEST_CODE_SIZE);
+    }
+
+    bool operator==(VRequest& b) {
+        return strcmp(code, b.code) == 0;
     }
 };
 

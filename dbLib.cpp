@@ -35,6 +35,11 @@ void loadVDB(char* fName, L1List<VRecord> &db) {
         int         nRecords = 0;
         char        pBuf[32];
         fread(pBuf, 1, VDB_HEADER_SIZE, fd);
+        if (strncmp(pBuf, VDB_HEADER_TEXT, strlen(VDB_HEADER_TEXT)) != 0) {
+            clog << "Invalid VDB data file\n";
+            fclose(fd);
+            return;
+        }
         fread(&nRecords, 4, 1, fd);
 
         VRecord vR;

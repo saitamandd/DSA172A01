@@ -16,6 +16,10 @@
 #include <time.h>
 #include <iostream>
 #include <iomanip>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <functional>
 
 #include "listLib.h"
 #include "requestLib.h"
@@ -47,6 +51,11 @@ struct VRecord {
     VRecord(VRecord&& vR): timestamp(vR.timestamp),
                            x(vR.x), y(vR.y) {
         strcpy(id, vR.id);
+    }
+
+    bool operator==(VRecord& b) {
+        return  strcmp(id, b.id) == 0 &&
+                timestamp == b.timestamp;
     }
 };
 
