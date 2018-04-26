@@ -74,6 +74,7 @@ Các yêu cầu có thể được xử lý trên database.
 | LPV        | Tìm thiết bị có hành trình dài nhất |
 | SPV        | Tìm thiết bị có hành trình ngắn nhất |
 | RVR`<ID>`  | Xóa các record của thiết bị `<ID>` |
+
 **Lưu ý: nếu có nhiều kết quả có thể trả về thì chọn kết quả đầu tiên theo thứ tự lưu 
 trong dữ liệu đầu vào.**
 
